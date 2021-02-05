@@ -1,5 +1,5 @@
 # QPdf
-PDF viewer widget for Qt 5.
+PDF viewer widget for Qt 5 (>=5.9).
 
 This is a wrapper of [pdf.js](https://mozilla.github.io/pdf.js) JavaScript PDF renderer using Qt WebEngine.
 
@@ -8,7 +8,7 @@ This is a wrapper of [pdf.js](https://mozilla.github.io/pdf.js) JavaScript PDF r
 This qmake-based project defines two build targets: `qpdf` shared library, and an example PDF viewer (`pdfviewer`) based on `qpdf` library.
 Should yoo want to integrate a PDF view into your project, you need to take `qpdf` library only, you do not need `pdfviewer` (though you may use it as inspirational example for your project). So you may copy `qpdflib` into your project and build it as a shared library to be linked with your code.
 
-REquires
+Requires
 --------------
 For running on Ubuntu 18.04:
 * sudo apt install libqt5webenginewidgets5
@@ -16,12 +16,6 @@ For running on Ubuntu 18.04:
 For compilation on Ubuntu 18.04:
 * sudo apt install qtwebengine5-dev
 
-
-How to compile
---------------
-* Make sure you have Qt 5.9.x or later installed. Earlier Qt versions are not supported.
-* Open `qpdf.pro` project file in QtCreator
-* Build and run
 
 Open PDF files
 --------------
