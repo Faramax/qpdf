@@ -38,7 +38,7 @@ See https://github.com/adobe-type-tools/cmap-resources
 <!-- This snippet is used in production (included from viewer.html) -->
 <link rel="resource" type="application/l10n" href="locale/locale.properties">
 <script src="pdf.js"></script>
-
+<link rel="stylesheet" type="text/css" href="./simple-keyboard.css">
 
     <script src="viewer.js"></script>
 
@@ -74,6 +74,7 @@ See https://github.com/adobe-type-tools/cmap-resources
 
       <div id="mainContainer">
         <div class="findbar hidden doorHanger" id="findbar">
+          <table<tr><td>
           <div id="findbarInputContainer">
             <input id="findInput" class="toolbarField" title="Find" placeholder="Find in document…" tabindex="91" data-l10n-id="find_input">
             <div class="splitToolbarButton">
@@ -98,7 +99,13 @@ See https://github.com/adobe-type-tools/cmap-resources
           <div id="findbarMessageContainer">
             <span id="findMsg" class="toolbarLabel"></span>
           </div>
-        </div>  <!-- findbar -->
+	  </td></tr>
+          <tr><td>
+            <div class="simple-keyboard"></div>
+            <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/simple-keyboard@latest/build/index.min.js"></script>
+            <script type="text/javascript" src="virtual-keyboard.js"></script> 
+          </td></tr></table>
+       </div>  <!-- findbar -->
 
         <div id="secondaryToolbar" class="secondaryToolbar hidden doorHangerRight">
           <div id="secondaryToolbarButtonContainer">

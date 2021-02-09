@@ -6,6 +6,9 @@
         <file>pdfview/viewer.css</file>
         <file>pdfview/viewer.html</file>
         <file>pdfview/viewer.js</file>
+        <file>pdfview/virtual-keyboard.js</file>
+        <file>pdfview/simple-keyboard.js</file>
+        <file>pdfview/simple-keyboard.css</file>
         <file>pdfview/images/annotation-check.svg</file>
         <file>pdfview/images/annotation-comment.svg</file>
         <file>pdfview/images/annotation-help.svg</file>
