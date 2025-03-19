@@ -29,7 +29,7 @@ class MainWindow : public QMainWindow
     Q_OBJECT
 public:
 
-    MainWindow(QWidget *pParent = nullptr, Qt::WindowFlags flags = 0);
+    MainWindow(QWidget *pParent = nullptr, Qt::WindowFlags flags = QFlags(Qt::Widget));
 
 public slots:
 
